@@ -1,11 +1,13 @@
 <script setup>
 import Head from './components/Head.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import weDo from './components/weDo.vue'
+import freeWeb from './components/freeWeb.vue'
+import whatProject from './components/whatProject.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="200" height="200" />
 
     <div class="wrapper">
       <Head/>
@@ -13,8 +15,11 @@ import TheWelcome from './components/TheWelcome.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <weDo />
+    <freeWeb />
+    <whatProject />
   </main>
+
 </template>
 
 <style scoped>
